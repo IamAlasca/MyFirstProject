@@ -90,6 +90,8 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "SDK", "SDK/**/*.{h,m}"
+  s.resources    = 'SDK/Resource/*.{png,xib,nib,bundle}'
+
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
